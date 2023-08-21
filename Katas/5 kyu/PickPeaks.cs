@@ -18,7 +18,7 @@ public class PickPeaks
                     peaks.Add(arr[i]);
                     pos.Add(i);
                 }else if (arr[i] > arr[i-1] && arr[i] == arr[i+1])
-                {
+                { 
                     platoValue = arr[i];
                     platoStartPos = i;
                 } else if (arr[i] == arr[i-1] && arr[i] > arr[i+1] && platoStartPos>0)
